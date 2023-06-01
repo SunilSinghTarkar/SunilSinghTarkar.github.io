@@ -594,7 +594,11 @@
         width: 30px;
         height: 30px;
       }
-      
+      @media screen and (max-width: 480px) {
+        .sticky-icons {
+          display: none; /* Hide the sticky-icons container */
+        }
+    }
 
 /* ====================== css for box5 ========================= */
 /* ====================== css for box5 ========================= */
