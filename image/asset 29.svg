@@ -1,0 +1,19 @@
+<svg class="js-activity-overview-graph d-none mx-auto&#10;      " xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <path class="js-highlight-blob" stroke-linejoin="round" fill="#40c463" stroke="#40c463" opacity="0.5" stroke-width="7"/>
+        <line stroke-width="2" stroke-linecap="round" class="js-highlight-x-axis activity-overview-axis"/>
+        <line stroke-width="2" stroke-linecap="round" class="js-highlight-y-axis activity-overview-axis"/>
+        <ellipse class="activity-overview-point js-highlight-top-ellipse" rx="3" ry="3" stroke-width="2" fill="white"/>
+        <ellipse class="activity-overview-point js-highlight-right-ellipse" rx="3" ry="3" stroke-width="2" fill="white"/>
+        <ellipse class="activity-overview-point js-highlight-bottom-ellipse" rx="3" ry="3" stroke-width="2" fill="white"/>
+        <ellipse class="activity-overview-point js-highlight-left-ellipse" rx="3" ry="3" stroke-width="2" fill="white"/>
+        <text text-anchor="middle" class="activity-overview-percentage js-highlight-percent-top"/>
+        <text text-anchor="middle" class="text-small activity-overview-label js-highlight-label-top"/>
+        <text text-anchor="start" class="activity-overview-percentage js-highlight-percent-right"/>
+        <text text-anchor="start" class="text-small activity-overview-label js-highlight-label-right"/>
+        <text text-anchor="middle" class="activity-overview-percentage js-highlight-percent-bottom"/>
+        <text text-anchor="middle" class="text-small activity-overview-label js-highlight-label-bottom"/>
+        <text text-anchor="end" class="activity-overview-percentage js-highlight-percent-left"/>
+        <text text-anchor="end" class="text-small activity-overview-label js-highlight-label-left"/>
+      </g>
+    </svg>
