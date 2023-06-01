@@ -859,7 +859,8 @@
 
     @media screen and (min-width: 200px) and (max-width: 400px){
         .box10>span{
-            font-size: 15px;
+            font-size: 12px;
+          
         }
         .wlcm_note{
             font-size: 18px;
@@ -927,7 +928,7 @@
 
     @media screen and (min-width: 400px) and (max-width: 520px) { 
         .box10>span{
-            font-size: 17px;
+            font-size: 15px;
         }
 
         .wlcm_note{
@@ -991,7 +992,7 @@
     @media screen and (min-width: 521px) and (max-width: 730px){
 
         .box10>span{
-            font-size: 28px;
+            font-size: 20px;
         }
 
         .box11{

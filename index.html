@@ -19,7 +19,7 @@
             <div class="progress-bar" id="myBar"></div>
         </div>
     </div>
-    <section class="top-nav">
+    <section class="top-nav" id="nav-menu">
         <input id="menu-toggle" type="checkbox" />
         <div class="name-container">
           <a href="#box1"><img src="image/s_logo.png" alt="" style="width: 90px;"></a>
@@ -29,17 +29,17 @@
           <div class='menu-button'></div>
         </label>
         <ul class="menu">
-          <li><a class="tdn" href="#box1">Home</a></li>
-          <li><a class="tdn" href="#box0">About</a></li>
-          <li><a class="tdn" href="#box2">Tech Stack</a></li>
-          <li><a class="tdn" href="#box4">My Skills</a></li>
-          <li><a class="tdn" href="#box3">Project</a></li>
-          <li><a class="tdn" href="#box5">Contact</a></li>
-          <li><a class="tdn" download="" href="image/Sunilsingh-Tarkar-Resume.pdf">Resume</a></li>
+          <li><a class="tdn home" href="#box1">Home</a></li>
+          <li><a class="tdn about" href="#box0">About</a></li>
+          <li><a class="tdn tech" href="#box2">Tech Stack</a></li>
+          <li><a class="tdn skills" href="#box4">My Skills</a></li>
+          <li><a class="tdn project" href="#box3">Project</a></li>
+          <li><a class="tdn contact" href="#box5">Contact</a></li>
+          <li><a class="tdn" id="resume-button-1" download="" href="image/Sunilsingh-Tarkar-Resume.pdf">Resume</a></li>
         </ul>
       </section>
       
-<div class="box1" id="box1">
+<div class="box1 home" id="box1">
         <div class="box10">
             <span style="--i:1;">
                 <H1>Hi</H1>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </div>
-     <div class="box0 reveal" id="box0"> 
+     <div class="box0 reveal about" id="box0"> 
         <div id="about">
             <div class="container">
                 <div class="row">
@@ -89,7 +89,7 @@
                         <p>Java Backend Developer with a strong ability to learn and collaborate in rapidly changing environments and compositions. Proficient in Java, DSA, SpringBoot, Hibernate, SQL, JavaScript, HTML5 & CSS3 through intensive 1200+ hours of Bootcamp Structure learning. Skilled in full stack development with a focus on backend Java. Capable of developing RESTful APIs, designing databases, and creating server-side applications using Java frameworks. A proactive problem-solver with excellent communication skills and a strong commitment to continuous improvement.</p>  
                     
                     <div class="resumesButton">
-                        <a download="" href="image/Sunilsingh-Tarkar-Resume.pdf" >
+                        <a  id="resume-button-2" download="" href="image/Sunilsingh-Tarkar-Resume.pdf" >
                           <button class="resumeButton">Download Resume<svg class="icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"></path></svg></button>
                         </a>
                         <a href="image/Sunilsingh-Tarkar-Resume.pdf" target="_blank">
@@ -101,7 +101,7 @@
             </div>
         </div>
     </div>  
-    <div class="box2 reveal" id="box2">
+    <div class="box2 tech" id="box2">
         <div class="box21">
             <h1>
                 TECH-STACK
@@ -198,7 +198,7 @@
         </div>
     </div>
 
-    <div class="box4 reveal" id="box4">
+    <div class="box4 skills" id="box4">
         <div class="container">
             <div class="box41">
                 <h1>My Skills</h1>
@@ -232,7 +232,7 @@
         </div>
     </div>
 
-    <div class="box3 reveal" id="box3">
+    <div class="box3 project" id="box3">
         <div class="box31">
             <h1>PROJECTS</h1>
         </div>
@@ -348,4 +348,4 @@
 </body>
 
 </html>
-<script src="script.js"></script>
+<script src="index.js"></script>
