@@ -838,7 +838,16 @@
         margin-top: 20px;
         padding: 20px;
     }
-
+    .github{
+        width: 90%;
+        margin: auto;
+        display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 10px; 
+       padding:0 40px;
+       background-image: url(https://wallpaperaccess.com/full/3415092.jpg);
+       margin-bottom: 50px;
+    }
     .github_stat{
         width: 99%;
         margin: auto;
@@ -848,7 +857,7 @@
     }
     .github_stat>img{
         max-width: 100%;
-    }
+    } 
     .box8>.calendar>.contrib-column{
         display: none;
     }
@@ -858,6 +867,9 @@
 /* =============media query============= */
 
     @media screen and (min-width: 200px) and (max-width: 400px){
+        .github{
+        grid-template-columns: 1fr;
+        }
         .box10>span{
             font-size: 12px;
           
@@ -930,7 +942,9 @@
         .box10>span{
             font-size: 15px;
         }
-
+        .github{
+            grid-template-columns: 1fr;
+            }
         .wlcm_note{
             font-size: 20px;
         }
@@ -990,7 +1004,9 @@
     }
 
     @media screen and (min-width: 521px) and (max-width: 730px){
-
+        .github{
+            grid-template-columns: 1fr;
+            }
         .box10>span{
             font-size: 20px;
         }
