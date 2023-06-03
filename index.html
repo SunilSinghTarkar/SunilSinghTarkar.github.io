@@ -33,7 +33,7 @@
           <li><a class="tdn nav-link about" href="#about">About</a></li>
           <li><a class="tdn nav-link tech" href="#teck">Tech Stack</a></li>
           <li><a class="tdn nav-link skills" href="#skills">My Skills</a></li>
-          <li><a class="tdn nav-link projects" href="#project">Project</a></li>
+          <li><a class="tdn nav-link projects" href="#projects">Project</a></li>
           <li><a class="tdn nav-link contact" href="#contact">Contact</a></li>
           <li><a class="tdn nav-link resume" id="resume-button-1" download="" href="image/Sunilsingh-Tarkar-Resume.pdf">Resume</a></li>
         </ul>
@@ -42,28 +42,11 @@
 <div class="box1 home"  id="home">
         <div class="box10">
             <div id="user-detail-name">
-            <span style="--i:1;">
-                <H1>Hi</H1>
-            </span>
-            <span style="--i:2;">
-                <h1>There!</h1>
-            </span>
-            <span style="--i:3;">
-                <h1>This </h1>
-            </span>
-            <span style="--i:4;">
-                <h1>is</h1>
-            </span>
-            <span style="--i:10">&nbsp;</span>
-            <span style="--i:11;color: #FF9933;" class="shadowed-text">
-                <h1>Sunil</h1>
-            </span>
-            <span style="--i:13;color: #FFFFFF;" class="shadowed-text">
-                <h1>Singh</h1>
-            </span>
-            <span style="--i:15;color: #138808;" class="shadowed-text">
-                <h1>Tarkar</h1>
-            </span>
+            <h1  class="text-animation" ><span>Hi There! This is  </span>
+                <span style="color: #FF9933;" class="shadowed-text">Sunil</span>
+                <span style="color: #FFFFFF;" class="shadowed-text">Singh</span>
+                <span style="color: #138808;" class="shadowed-text">Tarkar</span> 
+           </h1>
         </div> 
     </div>
         <div class="box11">
@@ -80,6 +63,7 @@
     </div>
      <div class="box0 reveal about" id="about"> 
         <div id="about" class="about section">
+            <h1 style="text-align: center;">About me</h1>
             <div class="container">
                 <div class="row">
                     <div class="about-col-1 ">
@@ -204,7 +188,7 @@
                 <h1>My Skills</h1>
             </div>
             <div class="skills-list ">
-                <div class="skills-card">
+                <div class="skills-card skills-card-img">
                     <i class="fa-brands fa-java"></i>
                     <h2>Java Backend Development</h2>
                     <p>Java is a powerful programming language that excels in handling robust tasks, particularly on the back end. It is highly valued by back end developers due to its performance and support for object-oriented programming. One of Java's strengths is its ability to run on any system with a Java Virtual Machine (JVM), making it a versatile choice for developing applications across different platforms.</p>
@@ -214,6 +198,7 @@
                     <h2>Frontend Development</h2>
                     <p>The Front-End Developer creates user-facing features, designs web pages, and builds reusable code using HTML, CSS and JavaScript. They focus on enhancing user experience, ensuring efficient page loading, and employing markup languages to deliver engaging web content.</p>
                 </div>
+
                 <div class="skills-card">
                     <i class="fa-solid fa-cubes"></i>
                     <h2>Data Structure & Algorithms</h2>
@@ -238,12 +223,12 @@
         </div>
         <div class="box32">
 
-            <div class="flip-card">
+            <div class="flip-card  project-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <figure class="swing"><img class="proimg" src="image/project1.png" alt=""></figure>
                     </div>
-                    <div class="flip-card-back project-card">
+                    <div class="flip-card-back">
                         <h1>E-Commerce Site</h1>
                         <p>Through an e-commerce website, a business can process orders, accept payments, manage
                             shipping and logistics, and provide customer service.</p>
@@ -258,12 +243,12 @@
                 </div>
 
             </div>
-            <div class="flip-card">
+            <div class="flip-card project-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <figure class="swing"><img class="proimg" src="image/medigood.png" alt=""></figure>
                     </div>
-                    <div class="flip-card-back project-card">
+                    <div class="flip-card-back ">
                         <h1>Medigood</h1>
                         <p>Which provides services, including e-pharmacy,
                             diagnostics, e-consultation, and health content.</p>
@@ -276,12 +261,12 @@
                     </div>
                 </div>
             </div>
-            <div class="flip-card card222">
+            <div class="flip-card card222 project-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <figure class="swing"><img class="proimg" src="image/crime-management-system1.png" alt=""></figure>
                     </div>
-                    <div class="flip-card-back project-card">
+                    <div class="flip-card-back">
                         <h1>Crime Management System</h1>
                         <p></p>
                         <p>Tech stack :- Java</p>
@@ -307,8 +292,11 @@
             <div  class="github_stat">
                 <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=sunilsinghtarkar" alt="">
             </div> 
+            
         </div>
-        
+            <div class="github_stat react-activity-calendar">
+                <img id="github-streak-calender" src="https://ghchart.rshah.org/sunilsinghtarkar" alt="">
+           
     </div>
     <div class="box5 reveal" id="contact">
         <div class="box51">
@@ -322,15 +310,15 @@
                     <p><i class="fa-solid fa-location-dot"></i> Agra, Uttar Pradesh</p>
                 </div>
                 <div class="box5111">
-                    <p><i class="fa-solid fa-envelope"></i> sunilsinghtarkar1@gmail.com</p>
+                    <p id="contact-email"></p> ><i class="fa-solid fa-envelope"></i> sunilsinghtarkar1@gmail.com</p>
                 </div>
                 <div class="box5111">
-                    <p><i class="fa-solid fa-phone" id="contact-phone"></i> +91-8954433793</p>
+                    <p id="contact-phone"><i class="fa-solid fa-phone"></i> +91-8954433793</p>
                 </div>
                 <div class="box5112">
                     <div class="ico"><a id="contact-github" href="https://github.com/SunilSinghTarkar" target="_blank"><i
                                 class="fa-brands fa-github"></i></a></div>
-                    <div class="ico"><a href="https://www.linkedin.com/in/sunilsingh-tarkar-91a667257/" target="_blank"><i
+                    <div class="ico"><a id="contact-linkedin" href="https://www.linkedin.com/in/sunilsingh-tarkar-91a667257/" target="_blank"><i
                      class="fa-brands fa-linkedin"></i></a></div>
                     <div class="ico"><a href="mailto:sunilsinghtarkar1@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
                     </div>
