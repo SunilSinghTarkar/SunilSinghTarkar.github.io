@@ -36,6 +36,22 @@
     }
 
 
+    .text-animation {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      
+      .text-animation {
+        display: inline-block;
+        animation: typing 2s steps(32), cursor 0.4s step-end infinite alternate;
+      }
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+      }
+      
 
 /* =====scroll bar======= */
     .header {
@@ -50,21 +66,6 @@
         background: #001C55;
         width: 0%;
     }
-
-
-
-/* ========smooth scroll up========== */
-/* .reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-
-.reveal.active {
-    transform: translateY(0);
-    opacity: 1;
-} */
 
 .form-wrapper {
     flex: 1;
@@ -106,6 +107,8 @@
     cursor: pointer;
     border-radius: 4px;
   }
+
+ 
     /* ====================== css for box0 ========================= */
     /* ====================== css for box0 ========================= */
 
@@ -224,8 +227,8 @@
     }
     .box10 span {
         display: inline-block;
-        animation: box10 2s infinite;
-        animation-delay: calc(.1s * var(--i));
+        /* animation: box10 2s infinite; */
+        /* animation-delay: calc(.1s * var(--i)); */
         color: #001C55;
        
     }
@@ -846,7 +849,7 @@
        gap: 10px; 
        padding:0 40px;
        background-image: url(https://wallpaperaccess.com/full/3415092.jpg);
-       margin-bottom: 50px;
+       margin-bottom: 0px;
     }
     .github_stat{
         width: 99%;
@@ -1292,3 +1295,12 @@
     }
   }
   
+  .react-activity-calendar{
+    width: 90%;
+    padding: 20px;
+    background-image: url(https://wallpaperaccess.com/full/3415092.jpg);
+  }
+  #github-streak-calender{
+    width: 100%;
+    margin:auto;
+  }
