@@ -54,18 +54,7 @@
       
 
 /* =====scroll bar======= */
-    .header {
-        position: fixed;
-        top: 50px;
-        z-index: 1;
-        width: 100%;
-    }
-
-    .progress-bar {
-        height: 10px;
-        background: #001C55;
-        width: 0%;
-    }
+  
 
 .form-wrapper {
     flex: 1;
@@ -172,8 +161,8 @@
       }
       
       .resumeButton {
-        padding: 10px 20px;
-        margin: 25px;
+        padding: 10px 1.5vw;
+        margin: 1vw;
         background-color: #b456eb;
         border: none;
         border-radius: 5px;
@@ -597,11 +586,11 @@
         width: 30px;
         height: 30px;
       }
-      @media screen and (max-width: 480px) {
+       @media screen and (max-width: 480px) {
         .sticky-icons {
-          display: none; /* Hide the sticky-icons container */
-        }
-    }
+            display: none; /* Hide the sticky-icons container */
+          } 
+    } 
 
 /* ====================== css for box5 ========================= */
 /* ====================== css for box5 ========================= */
@@ -864,23 +853,57 @@
     .box8>.calendar>.contrib-column{
         display: none;
     }
-
-        
+    #namelogo{
+        padding-top: 5px;
+      width: 90px;
+    }
+    .box1{
+        padding: 7vw;
+        padding-top: 70px;
+    }   
+    .box0{
+        padding: 7vw;
+        font-size: large;
+    }  
+    .about-col-2 > p {
+        font-size: 1.5vw;  
+    }
+    #user-detail-name h1{
+        font-size: 5vw;  
+        padding-bottom: 0;
+    }
+    .some_about{
+        font-size: 3vw;
+    }
 
 /* =============media query============= */
 
-    @media screen and (min-width: 200px) and (max-width: 400px){
+    @media screen and (min-width: 200px) and (max-width: 420px){
         .github{
         grid-template-columns: 1fr;
         }
-        .box10>span{
-            font-size: 12px;
-          
+        #namelogo{
+           top: 0;
+           padding-top: 5px;
+            width: 70px;
+          }
+        .box1{
+            padding: 30px;
+            padding-top: 70px;
+        }
+        #greet{
+            display: none;
+        }
+        #user-detail-name h1{
+            font-size: 35px;  
+            padding-bottom: 0;
         }
         .wlcm_note{
-            font-size: 18px;
+           
+            padding: 0;
+            margin: 0;
         }
-
+       
         .box11{
             display: flex;
             flex-direction: column;
@@ -890,6 +913,7 @@
         }
         .box111{
             width: 110%;
+            padding:0 20px;
         }
         .some_about{
             font-size: 20px;
@@ -902,10 +926,13 @@
             margin-top: 10px;
         }
         .box22{
-            width: 95%;
+            width: 75%;
         }
         .box3{
             padding: 2px;
+        }
+        .box31>h1{
+            padding:0 5px;
         }
         .box32{
             grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
@@ -923,8 +950,15 @@
         .box6{
             font-size: 16px;
         }
+        .box41>h1{
+            padding: 0 5px;
+        }
+        .box51>h1{
+            padding: 0 5px;
+        }
         .box52{
             flex-direction:column-reverse;
+            margin-top: 0;
         }
         .box511 {
             padding: 0px;
@@ -938,20 +972,48 @@
         .box8>.calendar>.contrib-column{
             display: none;
         }
+        .box0{
+            padding: 40px;
+        }
+        .resumeButton {
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 12px;
+        }
+        .about-col-2>p {
+            font-size: 16px;
+            font-weight: bold;
+            /* line-height: 1.2; */
+        }
 
     }
 
-    @media screen and (min-width: 400px) and (max-width: 520px) { 
+    @media screen and (min-width: 420px) and (max-width: 520px) { 
         .box10>span{
             font-size: 15px;
         }
         .github{
             grid-template-columns: 1fr;
             }
-        .wlcm_note{
-            font-size: 20px;
-        }
-
+            #user-detail-name h1{
+                font-size: 45px;  
+                padding-bottom: 0;
+            }
+            #greet{
+                display: none;
+            }
+            .wlcm_note{
+               
+                padding: 0;
+                margin: 0;
+            }
+            .box1{
+                padding: 30px;
+                padding-top: 70px;
+            }
+            .box0{
+                padding: 40px;
+            }
         .box11{
             display: flex;
             flex-direction: column;
@@ -961,6 +1023,7 @@
         }
         .box111{
             width: 100%;
+            padding: 0;
         }
         .some_about{
             font-size: 25px;
@@ -973,7 +1036,7 @@
             margin-top: 10px;
         }
         .box22{
-            width: 85%;
+            width: 90%;
         }
         .box3{
             padding: 5px;
@@ -996,24 +1059,59 @@
         .box8>.calendar>.contrib-column{
             display: none;
         }
-
+        .resumeButton {
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+        .about-col-2>p {
+            font-size: 18px;
+            font-weight: bold;
+            /* line-height: 1.2; */
+        }
+        .arrup{
+            position: fixed; 
+            bottom: 20px; 
+            right: 30px; 
+            color: #72351C;
+        }
+        .about-col-1 img {  
+            max-width: 80%;
+        }
     }
+    
+   
 
-    .arrup{
-        position: fixed; 
-        bottom: 20px; 
-        right: 30px; 
-        color: #72351C;
-    }
-
-    @media screen and (min-width: 521px) and (max-width: 730px){
+    @media screen and (min-width: 521px) and (max-width: 750px){
         .github{
             grid-template-columns: 1fr;
+            width: 80%;
             }
         .box10>span{
             font-size: 20px;
         }
+        #user-detail-name h1{
+            font-size: 55px;  
+            padding-bottom: 0;
+        }
 
+        #greet{
+            display: none;
+        }
+        .wlcm_note{
+               
+            padding: 0;
+            margin: 0;
+            font-size: 30px;
+        }
+      
+        .box1{
+            padding: 40px;
+            padding-top: 70px;
+        }
+        .box0{
+            padding:40px 80px;
+        }
         .box11{
             display: flex;
             flex-direction: column;
@@ -1023,6 +1121,7 @@
         }
         .box111{
             width: 95%;
+            padding: 0;
         }
 
         .box112>img{
@@ -1042,16 +1141,32 @@
         .box7{
             width: 100%;
         }
-
+        .some_about{
+            font-size: 30px;
+        }
         .box8>.calendar>.contrib-column{
             display: none;
         }
-
+        .about-col-1 img {  
+            max-width: 90%;
+        }
+        .resumeButton {
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 18px;
+        }
+        .about-col-2>p {
+            font-size: 20px;
+           
+        }
     }
 
-    @media only screen and (max-width: 730px){
+    @media only screen and (max-width: 750px){
     .about-col-1,.about-col-2{
         flex-basis: 100%;
+    }
+    .about-col-1 img {  
+        max-width: 70%;
     }
     .about-col-1{
         margin-bottom: 30px;
@@ -1063,7 +1178,7 @@
         font-size: 16px;
         margin-right: 20px;
     }
-
+    
     }
 
     /* ===========css for navbar=========== */
@@ -1304,3 +1419,4 @@
     width: 100%;
     margin:auto;
   }
+
