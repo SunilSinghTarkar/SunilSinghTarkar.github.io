@@ -15,6 +15,7 @@
 
 
 
+
     * {
         /* cursor: url(arrow/gray24.png),auto; */
         padding: 0;
@@ -980,6 +981,12 @@
             margin: 5px;
             font-size: 12px;
         }
+        .projectcontainer{
+            grid-template-columns: 1fr;
+           }
+           .projectlinks{
+            font-size: 5vw;
+           }
         .about-col-2>p {
             font-size: 16px;
             font-weight: bold;
@@ -1064,6 +1071,12 @@
             margin: 5px;
             font-size: 16px;
         }
+        .projectcontainer{
+            grid-template-columns: 1fr;
+           }
+           .projectlinks{
+            font-size: 4vw;
+           }
         .about-col-2>p {
             font-size: 18px;
             font-weight: bold;
@@ -1155,6 +1168,12 @@
             margin: 5px;
             font-size: 18px;
         }
+        .projectcontainer{
+            grid-template-columns: 1fr;
+           }
+           .projectlinks{
+            font-size: 3vw;
+           }
         .about-col-2>p {
             font-size: 20px;
            
@@ -1178,7 +1197,12 @@
         font-size: 16px;
         margin-right: 20px;
     }
-    
+    .projectcontainer{
+        grid-template-columns: 1fr;
+       }
+       .projectlinks{
+        font-size: 2.5vw;
+       }
     }
 
     /* ===========css for navbar=========== */
@@ -1419,4 +1443,88 @@
     width: 100%;
     margin:auto;
   }
+ 
+/* Style for the container div */
+.projectcontainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    padding: 20px;
+    /* text-align: center; */
+}
 
+.projectcontent{
+   padding-bottom: 20px;
+    border: 2px solid rebeccapurple;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    line-height: 25px;
+}
+ .projectlist {
+    padding: 0 max(2vw, 30px);
+}
+
+
+
+.projectcontent img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.projectcontent ul {
+    text-align: left;
+    margin-top: 10px;
+}
+ .project-name{
+  color:rebeccapurple;
+  
+}
+.projectButton{
+    margin: 10px;
+    margin-left: 0;
+    background-color: #b456eb;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.projectlinks{
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 20px;
+    color: #fff;
+    
+}
+@media screen and (min-width: 200px) and (max-width: 400px){
+    .projectcontainer{
+        grid-template-columns: 1fr;
+       }
+       .projectlinks{
+        font-size: 5vw;
+       }
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+    .projectcontainer{
+        grid-template-columns: 1fr;
+       }
+       .projectlinks{
+        font-size: 4vw;
+       }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px)  {
+   .projectcontainer{
+    grid-template-columns: 1fr;
+   }
+   .projectlinks{
+    font-size: 3vw;
+   }
+}
+@media screen and (min-width: 800px) and (max-width: 900px)  {
+   .projectcontainer{
+    grid-template-columns: 1fr;
+   }
+   .projectlinks{
+    font-size: 2vw;
+   }
+}
